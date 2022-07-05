@@ -1,0 +1,9 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Airflow logs
+logs/
+dags/__pycache__/
+
+# Ignore Docker artifacts
+Dockerfile
